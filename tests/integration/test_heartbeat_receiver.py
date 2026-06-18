@@ -162,6 +162,7 @@ def main() -> int:
     return 0
 
 
+
 if __name__ == "__main__":
     # Start drone in another process
     drone_process = mp.Process(target=start_drone)

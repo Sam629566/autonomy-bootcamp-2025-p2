@@ -39,6 +39,7 @@ def heartbeat_sender_worker(
         print("ERROR: Worker failed to create logger")
         return
 
+
     # Get Pylance to stop complaining
     assert local_logger is not None
 

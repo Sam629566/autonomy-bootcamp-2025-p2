@@ -27,6 +27,7 @@ class HeartbeatReceiver:
         Falliable create (instantiation) method to create a HeartbeatReceiver object.
         """
 
+
         try:
             reciever = HeartbeatReceiver(cls.__private_key, connection, local_logger)
             local_logger.info("Successfully created a HeartbeatReciever object")
