@@ -12,6 +12,7 @@ from modules.common.modules.logger import logger
 from modules.common.modules.logger import logger_main_setup
 from modules.common.modules.read_yaml import read_yaml
 from modules.heartbeat import heartbeat_receiver_worker
+from modules.heartbeat.heartbeat_receiver import HeartbeatReceiver
 from utilities.workers import queue_proxy_wrapper
 from utilities.workers import worker_controller
 
@@ -49,21 +50,33 @@ def start_drone() -> None:
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
 def stop(
-    args,  # Add any necessary arguments
+    controller: worker_controller.WorkerController,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
 ) -> None:
     """
     Stop the workers.
     """
+
+    controller.request_exit()
+    output_queue.fill_and_drain_queue()
+
     pass  # Add logic to stop your worker
 
 
 def read_queue(
-    args,  # Add any necessary arguments
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
     main_logger: logger.Logger,
 ) -> None:
     """
     Read and print the output queue.
     """
+
+    while True:
+        status = output_queue.queue.get()
+        if status is None:
+            break
+        main_logger.info(f"Status: {status}")
+
     pass  # Add logic to read from your worker's output queue and print it using the logger
 
 
@@ -114,23 +127,34 @@ def main() -> int:
     # Mock starting a worker, since cannot actually start a new process
     # Create a worker controller for your worker
 
+    controller = worker_controller.WorkerController()
+
+    assert controller is not None
+
     # Create a multiprocess manager for synchronized queues
 
+    mp_manager = mp.Manager()
+
     # Create your queues
+
+    output_queue = queue_proxy_wrapper.QueueProxyWrapper(mp_manager, 1)
 
     # Just set a timer to stop the worker after a while, since the worker infinite loops
     threading.Timer(
         HEARTBEAT_PERIOD * (NUM_TRIALS * 2 + DISCONNECT_THRESHOLD + NUM_DISCONNECTS + 2),
         stop,
-        (args,),
+        (controller, output_queue,),
     ).start()
 
     # Read the main queue (worker outputs)
-    threading.Thread(target=read_queue, args=(args, main_logger)).start()
+    threading.Thread(target=read_queue, args=(output_queue, main_logger)).start()
 
     heartbeat_receiver_worker.heartbeat_receiver_worker(
-        # Place your own arguments here
+        connection,
+        controller,
+        output_queue
     )
+
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
     # =============================================================================================

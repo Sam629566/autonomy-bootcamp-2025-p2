@@ -18,7 +18,8 @@ from ..common.modules.logger import logger
 # =================================================================================================
 def heartbeat_sender_worker(
     connection: mavutil.mavfile,
-    args,  # Place your own arguments here
+    period: float,
+    controller: worker_controller.WorkerController
     # Add other necessary worker arguments here
 ) -> None:
     """
@@ -47,6 +48,19 @@ def heartbeat_sender_worker(
     #                          ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
     # =============================================================================================
     # Instantiate class object (heartbeat_sender.HeartbeatSender)
+
+    result, sender = heartbeat_sender.HeartbeatSender.create(connection, local_logger)
+    if not result:
+        local_logger.error("Error creating HeartbeatSender Worker object")
+        return
+
+    assert sender is not None
+
+    local_logger.info("Successfully created HeartbeatSender Worker object")
+
+    while not controller.is_exit_requested():
+        sender.run()
+        time.sleep(period)
 
     # Main loop: do work.
 

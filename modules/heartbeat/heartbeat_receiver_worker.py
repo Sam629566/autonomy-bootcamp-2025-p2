@@ -18,7 +18,8 @@ from ..common.modules.logger import logger
 # =================================================================================================
 def heartbeat_receiver_worker(
     connection: mavutil.mavfile,
-    args,  # Place your own arguments here
+    controller: worker_controller.WorkerController,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
     # Add other necessary worker arguments here
 ) -> None:
     """
@@ -49,6 +50,23 @@ def heartbeat_receiver_worker(
     # Instantiate class object (heartbeat_receiver.HeartbeatReceiver)
 
     # Main loop: do work.
+
+    result, receiver = heartbeat_receiver.HeartbeatReceiver.create(connection, local_logger)
+
+    if not result:
+        local_logger.error("Unable to create Heartbeat Receiver Worker object")
+        return
+
+    assert receiver is not None
+
+    local_logger.info("Heartbeat Receiver Worker object successfully created")
+
+    while not controller.is_exit_requested():
+        success = receiver.run()
+
+        if success:
+            output_queue.queue.put(receiver.getStatus())
+
 
 
 # =================================================================================================
