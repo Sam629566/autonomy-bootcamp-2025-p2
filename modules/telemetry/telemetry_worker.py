@@ -52,26 +52,23 @@ def telemetry_worker(
     # =============================================================================================
     # Instantiate class object (telemetry.Telemetry)
 
-    result, receiver = telemetry.Telemetry.create(connection, local_logger)
+    result, telemeter = telemetry.Telemetry.create(connection, local_logger)
 
     if not result:
         local_logger.error("Unable to create Telemetry Worker object")
         return
 
-    assert receiver is not None
+    assert telemeter is not None
 
     local_logger.info("Successfully created Telemetry Worker object")
 
     # Main loop: do work.
 
     while not controller.is_exit_requested():
-        success, data = receiver.run()
+        success, data = telemeter.run()
 
         if success:
             output_queue.queue.put(data)
-        else:
-            local_logger.warning("Telemetry.run() failed, exiting loop.")
-            break
 
 
 # =================================================================================================

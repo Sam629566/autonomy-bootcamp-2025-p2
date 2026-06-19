@@ -19,8 +19,9 @@ from ..common.modules.logger import logger
 def command_worker(
     connection: mavutil.mavfile,
     target: command.Position,
-    args,  # Place your own arguments here
-    # Add other necessary worker arguments here
+    controller: worker_controller.WorkerController,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
+    input_queue: queue_proxy_wrapper.QueueProxyWrapper,
 ) -> None:
     """
     Worker process.
@@ -50,6 +51,27 @@ def command_worker(
     # Instantiate class object (command.Command)
 
     # Main loop: do work.
+
+    result, commander = command.Command.create(connection, target, local_logger)
+
+    if not result:
+        local_logger.error("Unable to create Command worker.")
+        return
+
+    assert commander is not None
+
+    local_logger.info("Successfully created Command worker.")
+
+    while not controller.is_exit_requested():
+        data = input_queue.queue.get()
+
+        if data is None:
+            break
+            
+        success, msg = commander.run(data)
+
+        if success:
+            output_queue.queue.put(msg)
 
 
 # =================================================================================================
