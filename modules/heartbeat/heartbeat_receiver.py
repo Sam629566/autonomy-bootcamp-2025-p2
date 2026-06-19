@@ -67,7 +67,7 @@ class HeartbeatReceiver:
         """
 
         try:
-            msg = self.__connection.recv_match(blocking = True, timeout = 1)
+            msg = self.__connection.recv_match(type = "HEARTBEAT", blocking = True, timeout = 1)
 
             if msg is None:
                 self.__count += 1

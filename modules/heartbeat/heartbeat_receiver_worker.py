@@ -66,7 +66,9 @@ def heartbeat_receiver_worker(
 
         if success:
             output_queue.queue.put(receiver.getStatus())
-
+        else:
+            local_logger.warning("Receiver.run() failed, exiting loop")
+            break
 
 
 

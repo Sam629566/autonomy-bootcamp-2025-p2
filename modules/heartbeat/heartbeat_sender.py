@@ -59,17 +59,17 @@ class HeartbeatSender:
 
 
         try:
-            self.__connection.heartbeat_send(
+            self.__connection.mav.heartbeat_send(
                 mavutil.mavlink.MAV_TYPE_GCS,
                 mavutil.mavlink.MAV_AUTOPILOT_INVALID,
                 0,
                 0,
                 0
             )
-            self.info("Successfully sent a Heartbeat message.")
+            self.__local_logger.info("Successfully sent a Heartbeat message.")
             return True
         except Exception as e:
-            self.error(f"Unable to send heartbeat message, {e}")
+            self.__local_logger.error(f"Unable to send heartbeat message, {e}")
             return False
 
 

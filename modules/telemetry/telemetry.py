@@ -76,37 +76,87 @@ class Telemetry:
     def create(
         cls,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
         local_logger: logger.Logger,
-    ):
+    ) -> "tuple[True, Telemetry] | tuple[False, None]":
         """
         Falliable create (instantiation) method to create a Telemetry object.
         """
-        pass  # Create a Telemetry object
+        try:
+            receiver = Telemetry(cls.__private_key, connection, local_logger)
+            local_logger.info("Successfully created Telemetry object")
+            return True, receiver
+        except Exception as e:
+            local_logger.error(f"Unable to create Telemetry object, {e}")
+            return False, None
 
     def __init__(
         self,
         key: object,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
         local_logger: logger.Logger,
     ) -> None:
         assert key is Telemetry.__private_key, "Use create() method"
 
         # Do any intializiation here
 
+        self.__connection = connection
+        self.__local_logger = local_logger
+
     def run(
         self,
-        args,  # Put your own arguments here
-    ):
+    ) -> "tuple[True, TelemetryData] | tuple[False, None]":
         """
         Receive LOCAL_POSITION_NED and ATTITUDE messages from the drone,
         combining them together to form a single TelemetryData object.
         """
         # Read MAVLink message LOCAL_POSITION_NED (32)
         # Read MAVLink message ATTITUDE (30)
-        # Return the most recent of both, and use the most recent message's timestamp
-        pass
+
+        try:
+            startTime = time.time()
+            local_position = None
+            attitude = None
+
+            data = TelemetryData()
+
+            while time.time() - startTime <= 1:
+                msg1 = self.__connection.recv_match(type = "LOCAL_POSITION_NED", blocking = True, timeout = 0.1)
+                msg2 = self.__connection.recv_match(type = "ATTITUDE", blocking = True, timeout = 0.1)
+
+                if msg1 is not None:
+                    local_position = msg1
+                if msg2 is not None:
+                    attitude = msg2
+                if local_position and attitude:
+                    break
+
+
+            # Return the most recent of both, and use the most recent message's timestamp
+            if local_position and attitude:
+                data.time_since_boot = max(local_position.time_boot_ms, attitude.time_boot_ms)
+                data.x = local_position.x
+                data.y = local_position.y
+                data.z = local_position.z
+                data.x_velocity = local_position.vx
+                data.y_velocity = local_position.vy
+                data.z_velocity = local_position.vz
+                data.roll = attitude.roll
+                data.pitch = attitude.pitch
+                data.yaw = attitude.yaw
+                data.roll_speed = attitude.rollspeed
+                data.pitch_speed = attitude.pitchspeed
+                data.yaw_speed = attitude.yawspeed
+
+                self.__local_logger.info("Successfully created Telemetry Data object")
+                return True, data
+
+            else:
+                self.__local_logger.warning("Local Position and Attitude were not read, unable to create Telemetry Data object")
+                return False, None
+
+        except Exception as e:
+            self.__local_logger.error(f"Error while creating Telemetry Data object, {e}")
+            return False, None
 
 
 # =================================================================================================

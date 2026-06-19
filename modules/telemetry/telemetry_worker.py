@@ -9,7 +9,9 @@ from pymavlink import mavutil
 
 from utilities.workers import queue_proxy_wrapper
 from utilities.workers import worker_controller
+from utilities.workers.worker_controller import WorkerController
 from . import telemetry
+from .telemetry import Telemetry
 from ..common.modules.logger import logger
 
 
@@ -18,7 +20,8 @@ from ..common.modules.logger import logger
 # =================================================================================================
 def telemetry_worker(
     connection: mavutil.mavfile,
-    args,  # Place your own arguments here
+    controller: worker_controller.WorkerController,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper
     # Add other necessary worker arguments here
 ) -> None:
     """
@@ -26,6 +29,7 @@ def telemetry_worker(
 
     args... describe what the arguments are
     """
+
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
     # =============================================================================================
@@ -48,7 +52,26 @@ def telemetry_worker(
     # =============================================================================================
     # Instantiate class object (telemetry.Telemetry)
 
+    result, receiver = telemetry.Telemetry.create(connection, local_logger)
+
+    if not result:
+        local_logger.error("Unable to create Telemetry Worker object")
+        return
+
+    assert receiver is not None
+
+    local_logger.info("Successfully created Telemetry Worker object")
+
     # Main loop: do work.
+
+    while not controller.is_exit_requested():
+        success, data = receiver.run()
+
+        if success:
+            output_queue.queue.put(data)
+        else:
+            local_logger.warning("Telemetry.run() failed, exiting loop.")
+            break
 
 
 # =================================================================================================
