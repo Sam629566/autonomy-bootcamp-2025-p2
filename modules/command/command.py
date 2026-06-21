@@ -47,6 +47,8 @@ class Command:  # pylint: disable=too-many-instance-attributes
             sender = Command(cls.__private_key, connection, target, local_logger)
             local_logger.info("Successfully created a Command object")
             return True, sender
+        # Catching all exceptions in fallible create() method
+        # pylint: disable-next=broad-exception-caught
         except Exception as e:
             local_logger.error(f"Error in creating Command object: {e}")
             return False, None
@@ -73,10 +75,7 @@ class Command:  # pylint: disable=too-many-instance-attributes
         self.__avg_velocity_z = 0
         self.__count = 0
 
-    def run(
-        self,
-        data: telemetry.TelemetryData
-    ) -> "tuple[True, str] | tuple[False, None]":
+    def run(self, data: telemetry.TelemetryData) -> "tuple[True, str] | tuple[False, None]":
         """
         Make a decision based on received telemetry data.
         """
@@ -106,17 +105,7 @@ class Command:  # pylint: disable=too-many-instance-attributes
         try:
             if abs(self.__target.z - data.z) > 0.5:
                 self.__connection.mav.command_long_send(
-                    1,
-                    0,
-                    113,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    self.__target.z
+                    1, 0, 113, 0, 1, 0, 0, 0, 0, 0, self.__target.z
                 )
                 self.__local_logger.info("Successfully sent CHANGE_ALTITUDE message")
                 return True, f"CHANGE ALTITUDE: {self.__target.z - data.z}"
@@ -153,11 +142,13 @@ class Command:  # pylint: disable=too-many-instance-attributes
 
             return False, None
 
+        # Catching all exceptions in fallible run() method
+        # pylint: disable-next=broad-exception-caught
         except Exception as e:
             self.__local_logger.error(f"Unable to send COMMAND_LONG messages, {e}")
 
-
         return False, None
+
 
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑

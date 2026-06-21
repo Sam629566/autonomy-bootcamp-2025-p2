@@ -27,11 +27,12 @@ class HeartbeatReceiver:
         Falliable create (instantiation) method to create a HeartbeatReceiver object.
         """
 
-
         try:
             reciever = HeartbeatReceiver(cls.__private_key, connection, local_logger)
             local_logger.info("Successfully created a HeartbeatReciever object")
             return True, reciever
+        # Catching all exceptions in fallible create() method
+        # pylint: disable-next=broad-exception-caught
         except Exception as e:
             local_logger.error(f"Unable to create a HeartbeatReciever object: {e}")
             return False, None
@@ -51,7 +52,7 @@ class HeartbeatReceiver:
 
         # Do any intializiation here
 
-    def getStatus(self) -> str:
+    def get_status(self) -> str:
         """
         Returns the current connection status: Connected/Disconnected
         """
@@ -67,7 +68,7 @@ class HeartbeatReceiver:
         """
 
         try:
-            msg = self.__connection.recv_match(type = "HEARTBEAT", blocking = True, timeout = 1)
+            msg = self.__connection.recv_match(type="HEARTBEAT", blocking=True, timeout=1)
 
             if msg is None:
                 self.__count += 1
@@ -83,6 +84,8 @@ class HeartbeatReceiver:
 
             return True
 
+        # Catching all exceptions in fallible run() method
+        # pylint: disable-next=broad-exception-caught
         except Exception as e:
             self.__local_logger.error(f"Error in receiving message: {e}")
             return False

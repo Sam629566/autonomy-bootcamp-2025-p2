@@ -1,0 +1,28 @@
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | main | 133] Connected!
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGE ALTITUDE: 1
+15:36:43: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGE ALTITUDE: -1
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 63.434948822922024
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 90.0
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 116.56505117707798
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 45.0
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 63.434948822921996
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 90.0
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 26.565051177077976
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 45.0
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 90.0
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 45.0
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 90.0
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: 135.0
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -26.565051177077976
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -45.0
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -90.0
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -45.0
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -90.0
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -135.0
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -63.434948822921996
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -90.0
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -116.56505117707798
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -45.0
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -63.43494882292201
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_command.py | read_queue | 80] Message: CHANGING YAW: -90.0

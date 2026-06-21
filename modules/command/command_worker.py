@@ -67,7 +67,7 @@ def command_worker(
 
         if data is None:
             break
-            
+
         success, msg = commander.run(data)
 
         if success:

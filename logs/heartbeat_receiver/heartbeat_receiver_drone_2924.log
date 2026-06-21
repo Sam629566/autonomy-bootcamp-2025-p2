@@ -1,0 +1,13 @@
+15:35:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | main | 42] Logger initialized
+15:35:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:35:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:35:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:35:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:35:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:36:01: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:36:02: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:36:03: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:36:04: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:36:05: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:36:07: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | send_heartbeats | 59] Drone: Sent a heartbeat
+15:36:08: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\mock_drones\heartbeat_receiver_drone.py | main | 79] Passesd!

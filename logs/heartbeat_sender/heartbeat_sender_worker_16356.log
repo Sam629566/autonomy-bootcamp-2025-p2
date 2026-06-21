@@ -1,0 +1,14 @@
+15:38:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender_worker.py | heartbeat_sender_worker | 45] Logger initialized
+15:38:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | create | 29] Successfully created a Heartbeat Sender object.
+15:38:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender_worker.py | heartbeat_sender_worker | 59] Successfully created HeartbeatSender Worker object
+15:38:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.
+15:38:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\heartbeat\heartbeat_sender.py | run | 56] Successfully sent a Heartbeat message.

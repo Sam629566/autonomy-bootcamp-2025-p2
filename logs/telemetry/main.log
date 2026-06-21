@@ -1,0 +1,152 @@
+15:36:15: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+15:36:16: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | main | 114] Connected!
+15:36:16: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 667,
+            x: 0.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 2.094395160675049,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+15:36:17: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 1334,
+            x: 1.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -2.094395160675049,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+15:36:18: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 2000,
+            x: 2.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+15:36:19: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 3000,
+            x: 3.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 3.1415927410125732,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+15:36:20: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 4000,
+            x: 4.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.0471975803375244,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+15:36:24: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 0,
+            x: 0.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 0.0,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+15:36:25: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 1000,
+            x: 1.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 3.1415927410125732,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+15:36:26: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 2000,
+            x: 2.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+15:36:27: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 3000,
+            x: 3.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: 1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }
+15:36:28: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 73] Status: {
+            time_since_boot: 4000,
+            x: 4.0,
+            y: 0.0,
+            z: 0.0,
+            x_velocity: 1.0,
+            y_velocity: 0.0,
+            z_velocity: 0.0,
+            roll: 0.0,
+            pitch: 0.0,
+            yaw: -1.5707963705062866,
+            roll_speed: 0.0,
+            pitch_speed: 0.0,
+            yaw_speed: 3.1415927410125732
+        }

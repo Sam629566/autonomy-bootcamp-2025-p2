@@ -1,0 +1,122 @@
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command_worker.py | command_worker | 46] Logger initialized
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | create | 48] Successfully created a Command object
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command_worker.py | command_worker | 63] Successfully created Command worker.
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 4.000 m/s
+15:36:42: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 110] Successfully sent CHANGE_ALTITUDE message
+15:36:43: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:43: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:43: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 1.000 m/s
+15:36:43: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 110] Successfully sent CHANGE_ALTITUDE message
+15:36:43: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:43: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:43: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.667 m/s
+15:36:44: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:44: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:44: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.500 m/s
+15:36:44: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:44: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:44: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.400 m/s
+15:36:45: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:45: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:45: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.333 m/s
+15:36:45: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:45: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:45: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.286 m/s
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 2.500 m/s
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.250 m/s
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 4.444 m/s
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.222 m/s
+15:36:46: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 6.000 m/s
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.200 m/s
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 1.818 m/s
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 5.455 m/s
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.182 m/s
+15:36:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 3.333 m/s
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 5.000 m/s
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.167 m/s
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 4.615 m/s
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 4.615 m/s
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.154 m/s
+15:36:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 4.286 m/s
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 2.857 m/s
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.143 m/s
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 4.000 m/s
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 1.333 m/s
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.133 m/s
+15:36:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 3.750 m/s
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.125 m/s
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 2.353 m/s
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.118 m/s
+15:36:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 1.111 m/s
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.111 m/s
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.105 m/s
+15:36:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 1.000 m/s
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.100 m/s
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 1.905 m/s
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.095 m/s
+15:36:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 2.727 m/s
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.091 m/s
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.870 m/s
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 2.609 m/s
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.087 m/s
+15:36:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 1.667 m/s
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 2.500 m/s
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.083 m/s
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 2.400 m/s
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 2.400 m/s
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.080 m/s
+15:36:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 2.308 m/s
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 1.538 m/s
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.077 m/s
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 2.222 m/s
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.741 m/s
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.074 m/s
+15:36:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 2.143 m/s
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.071 m/s
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 1.379 m/s
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.069 m/s
+15:36:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.667 m/s
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.067 m/s
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 95] Average velocity for X: 0.000 m/s
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 96] Average velocity for Y: 0.000 m/s
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 97] Average velocity for Z: 0.065 m/s
+15:36:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\command\command.py | run | 140] Successfully sent CHANGING YAW message

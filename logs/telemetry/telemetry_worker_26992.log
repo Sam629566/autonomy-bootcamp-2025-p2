@@ -1,0 +1,18 @@
+15:36:16: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 46] Logger initialized
+15:36:16: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | create | 86] Successfully created Telemetry object
+15:36:16: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 61] Successfully created Telemetry Worker object
+15:36:16: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:17: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:18: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:19: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:20: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:21: [WARNING] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] Local Position and Attitude were not read, unable to create Telemetry Data object
+15:36:22: [WARNING] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] Local Position and Attitude were not read, unable to create Telemetry Data object
+15:36:23: [WARNING] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] Local Position and Attitude were not read, unable to create Telemetry Data object
+15:36:24: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:25: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:26: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:27: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:28: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 153] Successfully created Telemetry Data object
+15:36:29: [WARNING] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] Local Position and Attitude were not read, unable to create Telemetry Data object
+15:36:30: [WARNING] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 156] Local Position and Attitude were not read, unable to create Telemetry Data object

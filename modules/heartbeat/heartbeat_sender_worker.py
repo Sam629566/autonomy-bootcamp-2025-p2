@@ -19,7 +19,7 @@ from ..common.modules.logger import logger
 def heartbeat_sender_worker(
     connection: mavutil.mavfile,
     period: float,
-    controller: worker_controller.WorkerController
+    controller: worker_controller.WorkerController,
     # Add other necessary worker arguments here
 ) -> None:
     """
@@ -38,7 +38,6 @@ def heartbeat_sender_worker(
     if not result:
         print("ERROR: Worker failed to create logger")
         return
-
 
     # Get Pylance to stop complaining
     assert local_logger is not None

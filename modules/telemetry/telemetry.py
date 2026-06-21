@@ -85,6 +85,8 @@ class Telemetry:
             receiver = Telemetry(cls.__private_key, connection, local_logger)
             local_logger.info("Successfully created Telemetry object")
             return True, receiver
+        # Catching all exceptions in fallible create() method
+        # pylint: disable-next=broad-exception-caught
         except Exception as e:
             local_logger.error(f"Unable to create Telemetry object, {e}")
             return False, None
@@ -113,15 +115,17 @@ class Telemetry:
         # Read MAVLink message ATTITUDE (30)
 
         try:
-            startTime = time.time()
+            start_time = time.time()
             local_position = None
             attitude = None
 
             data = TelemetryData()
 
-            while time.time() - startTime <= 1:
-                msg1 = self.__connection.recv_match(type = "LOCAL_POSITION_NED", blocking = True, timeout = 0.1)
-                msg2 = self.__connection.recv_match(type = "ATTITUDE", blocking = True, timeout = 0.1)
+            while time.time() - start_time <= 1:
+                msg1 = self.__connection.recv_match(
+                    type="LOCAL_POSITION_NED", blocking=True, timeout=0.1
+                )
+                msg2 = self.__connection.recv_match(type="ATTITUDE", blocking=True, timeout=0.1)
 
                 if msg1 is not None:
                     local_position = msg1
@@ -129,7 +133,6 @@ class Telemetry:
                     attitude = msg2
                 if local_position and attitude:
                     break
-
 
             # Return the most recent of both, and use the most recent message's timestamp
             if local_position and attitude:
@@ -150,10 +153,13 @@ class Telemetry:
                 self.__local_logger.info("Successfully created Telemetry Data object")
                 return True, data
 
-            else:
-                self.__local_logger.warning("Local Position and Attitude were not read, unable to create Telemetry Data object")
-                return False, None
+            self.__local_logger.warning(
+                "Local Position and Attitude were not read, unable to create Telemetry Data object"
+            )
+            return False, None
 
+        # Catching all exceptions in fallible run() method
+        # pylint: disable-next=broad-exception-caught
         except Exception as e:
             self.__local_logger.error(f"Error while creating Telemetry Data object, {e}")
             return False, None

@@ -65,8 +65,7 @@ def heartbeat_receiver_worker(
         success = receiver.run()
 
         if success:
-            output_queue.queue.put(receiver.getStatus())
-
+            output_queue.queue.put(receiver.get_status())
 
 
 # =================================================================================================

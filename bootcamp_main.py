@@ -100,11 +100,14 @@ def main() -> int:
     result, heartbeat_sender_properties = worker_manager.WorkerProperties.create(
         WORKER_COUNT,
         heartbeat_sender_worker.heartbeat_sender_worker,
-        (connection, SENDER_PERIOD,),
+        (
+            connection,
+            SENDER_PERIOD,
+        ),
         [],
         [],
         controller,
-        main_logger
+        main_logger,
     )
 
     if not result:
@@ -122,7 +125,7 @@ def main() -> int:
         [],
         [receiver_to_main],
         controller,
-        main_logger
+        main_logger,
     )
 
     if not result:
@@ -140,7 +143,7 @@ def main() -> int:
         [],
         [telemetry_to_command],
         controller,
-        main_logger
+        main_logger,
     )
 
     if not result:
@@ -154,11 +157,14 @@ def main() -> int:
     result, command_properties = worker_manager.WorkerProperties.create(
         WORKER_COUNT,
         command_worker.command_worker,
-        (connection, TARGET,),
+        (
+            connection,
+            TARGET,
+        ),
         [telemetry_to_command],
         [command_to_main],
         controller,
-        main_logger
+        main_logger,
     )
 
     if not result:
@@ -255,7 +261,6 @@ def main() -> int:
             main_logger.error("Command to Main Queue is empty, no reading")
 
         time.sleep(0.1)
-
 
     # Stop the processes
 

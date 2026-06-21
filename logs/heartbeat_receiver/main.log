@@ -1,0 +1,27 @@
+15:35:47: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+15:35:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | main | 116] Connected!
+15:35:48: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:49: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:50: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:51: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:52: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:53: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:54: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:55: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:56: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:35:57: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Disconnected
+15:35:58: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Disconnected
+15:35:59: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Disconnected
+15:36:00: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Disconnected
+15:36:01: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:36:02: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:36:02: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:36:03: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:36:04: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:36:04: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:36:05: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:36:06: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:36:07: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected
+15:36:08: [INFO] [C:\Users\Samuel\Documents\Waterloo Documents\UWARG Documents\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 75] Status: Connected

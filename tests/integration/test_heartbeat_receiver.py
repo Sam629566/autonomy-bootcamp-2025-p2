@@ -12,7 +12,6 @@ from modules.common.modules.logger import logger
 from modules.common.modules.logger import logger_main_setup
 from modules.common.modules.read_yaml import read_yaml
 from modules.heartbeat import heartbeat_receiver_worker
-from modules.heartbeat.heartbeat_receiver import HeartbeatReceiver
 from utilities.workers import queue_proxy_wrapper
 from utilities.workers import worker_controller
 
@@ -60,8 +59,6 @@ def stop(
     controller.request_exit()
     output_queue.fill_and_drain_queue()
 
-    pass  # Add logic to stop your worker
-
 
 def read_queue(
     output_queue: queue_proxy_wrapper.QueueProxyWrapper,
@@ -76,8 +73,6 @@ def read_queue(
         if status is None:
             break
         main_logger.info(f"Status: {status}")
-
-    pass  # Add logic to read from your worker's output queue and print it using the logger
 
 
 # =================================================================================================
@@ -143,24 +138,22 @@ def main() -> int:
     threading.Timer(
         HEARTBEAT_PERIOD * (NUM_TRIALS * 2 + DISCONNECT_THRESHOLD + NUM_DISCONNECTS + 2),
         stop,
-        (controller, output_queue,),
+        (
+            controller,
+            output_queue,
+        ),
     ).start()
 
     # Read the main queue (worker outputs)
     threading.Thread(target=read_queue, args=(output_queue, main_logger)).start()
 
-    heartbeat_receiver_worker.heartbeat_receiver_worker(
-        connection,
-        controller,
-        output_queue
-    )
+    heartbeat_receiver_worker.heartbeat_receiver_worker(connection, controller, output_queue)
 
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
     # =============================================================================================
 
     return 0
-
 
 
 if __name__ == "__main__":

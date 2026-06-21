@@ -57,8 +57,6 @@ def stop(
     controller.request_exit()
     output_queue.fill_and_drain_queue()
 
-    pass  # Add logic to stop your worker
-
 
 def read_queue(
     output_queue: queue_proxy_wrapper.QueueProxyWrapper,
@@ -73,8 +71,6 @@ def read_queue(
         if status is None:
             break
         main_logger.info(f"Status: {status}")
-
-    pass  # Add logic to read from your worker's output queue and print it using the logger
 
 
 # =================================================================================================
@@ -135,7 +131,14 @@ def main() -> int:
     output_queue = queue_proxy_wrapper.QueueProxyWrapper(mp_manager, 1)
 
     # Just set a timer to stop the worker after a while, since the worker infinite loops
-    threading.Timer(TELEMETRY_PERIOD * NUM_TRIALS * 2 + NUM_FAILS, stop, (controller, output_queue,)).start()
+    threading.Timer(
+        TELEMETRY_PERIOD * NUM_TRIALS * 2 + NUM_FAILS,
+        stop,
+        (
+            controller,
+            output_queue,
+        ),
+    ).start()
 
     # Read the main queue (worker outputs)
     threading.Thread(target=read_queue, args=(output_queue, main_logger)).start()
